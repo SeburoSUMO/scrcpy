@@ -9,3 +9,12 @@ Type=Application
 Icon=/opt/scrcpy/scrcpy.png
 Categories=GNOME;GTK;Development;
 StartupNotify=true
+Actions=Record;Start and show touches;
+
+[Desktop Action Record]
+Name=Record
+Exec=/snap/bin/scrcpy --record scrcpy.mp4
+
+[Desktop Action Start and show touches]
+Name=Start and show touches
+Exec=/snap/bin/scrcpy --show-touches
