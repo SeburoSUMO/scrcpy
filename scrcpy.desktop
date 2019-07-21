@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=scrcpy
+Comment=Display and control your Android device 
+Exec=/snap/bin/scrcpy
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/opt/scrcpy/scrcpy.png
+Categories=GNOME;GTK;Development;
+StartupNotify=true
